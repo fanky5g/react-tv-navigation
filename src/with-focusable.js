@@ -1,4 +1,4 @@
-import ReactTV from 'react-tv';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
 import compose from 'recompose/compose';
@@ -48,7 +48,7 @@ const withFocusable = compose(
     },
     componentWillUnmount() {
       SpatialNavigation.removeFocusable(
-        ReactTV.findDOMNode(this),
+        ReactDOM.findDOMNode(this),
         { onEnterPressHandler: this.props.onEnterPressHandler }
       );
     },

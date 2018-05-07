@@ -20,7 +20,6 @@
   "keywords": [
     "react",
     "tv",
-    "react-tv",
     "spatial",
     "navigation"
   ],
@@ -35,8 +34,8 @@
   },
   "homepage": "https://github.com/react-tv/react-tv-navigation#readme",
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-tv": "^0.3.2"
+    "react": "^15.5.0",
+    "react-tv": "^15.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -56,9 +55,8 @@
     "eslint-plugin-relay": "^0.0.20",
     "jest": "^22.1.1",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-tv": "^0.3.2",
+    "react": "^15.5.0",
+    "react-dom": "^15.0.0",
     "recompose": "^0.26.0",
     "rollup": "^0.54.0",
     "rollup-plugin-babel": "^3.0.3",
